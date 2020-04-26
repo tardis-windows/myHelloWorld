@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+
 
 using namespace std; 
 
@@ -13,7 +15,7 @@ int main()
 
 	string s = "used visual studio code"; 
 	
-	for(int i = 0; i < s.length; i++)
+	for(int i = 0; i < s.length(); i++)		// this was an error 
 	{
 		cout << s[i] << endl; 
 		

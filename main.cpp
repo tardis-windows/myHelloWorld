@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath> // for calculator
 
 
 using namespace std; 
